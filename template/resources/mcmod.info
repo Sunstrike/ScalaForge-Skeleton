@@ -1,0 +1,19 @@
+[
+{
+  "modid": "@MODID@",
+  "name": "@MODNAME@",
+  "description": "Created by ScalaForge Skeleton. If you see this, please tell the mod author to update their mcmod.info in resources/mcmod.info!",
+  "version": "",
+  "credits": "",
+  "logoFile": "",
+  "mcversion": "",
+  "url": "",
+  "updateUrl": "",
+  "authors": [],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+     "mod_MinecraftForge"
+  ]
+}
+]
