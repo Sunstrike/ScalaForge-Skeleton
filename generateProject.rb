@@ -2,7 +2,6 @@
 
 require 'trollop'
 require 'fileutils'
-require 'grit'
 
 GENVERSION = '0.0.1'
 REPO_CORESTR = 'https://github.com/Sunstrike/LibCorestrike.git'
