@@ -34,7 +34,7 @@ object @MODID@ {
      *
      * @param event FML event
      */
-    @PreInit
+    @EventHandler
     def preInit(event:FMLPreInitializationEvent) {
         Config.loadConfig(new Configuration(event.getSuggestedConfigurationFile))
     }
@@ -44,7 +44,7 @@ object @MODID@ {
      *
      * @param event FML event
      */
-    @Init
+    @EventHandler
     def init(event:FMLInitializationEvent) {
         // TODO: GameRegistry-related setup
     }
@@ -54,7 +54,7 @@ object @MODID@ {
      *
      * @param event FML event
      */
-    @PostInit
+    @EventHandler
     def postInit(event:FMLPostInitializationEvent) {
 
     }
